@@ -22,10 +22,9 @@
 
 }
 .text-bg{
-    background: rgba( 237, 106, 106, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 3px );
--webkit-backdrop-filter: blur( 3px );
+  backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(205, 116, 100, 0.64);
 width: 550px;
 height: 200px;
 margin-top: 180px;
