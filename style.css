@@ -38,7 +38,7 @@ font-size: x-large;
 .bg2{
     background-image: linear-gradient(to  right,#ff68c2, #ffdc5b);
     height: 50rem;
-    width: 100%;
+    width: 100vw;
     background: cover;
     background-repeat: no-repeat;
 }
