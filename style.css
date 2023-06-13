@@ -40,6 +40,8 @@ font-size: x-large;
     background-image: linear-gradient(to  right,#ff68c2, #ffdc5b);
     height: 50rem;
     width: 100vw;
+    background-size: 100% 100%;
+
     background: cover;
     background-repeat: no-repeat;
 }
@@ -104,9 +106,12 @@ font-size: x-large;
   .flex-container {
     display: flex;
     flex-direction: row;
+    
   }
- 
-
+ .navitems{
+  margin-left:30px ;
+ }
+  
   
 
 
@@ -123,7 +128,8 @@ font-size: x-large;
    background-size: cover;
     
     width:100rem;
-   
+    background-size: 100% 100%;
+
     background-repeat: no-repeat;
     
     
@@ -136,11 +142,44 @@ font-size: x-large;
     background: cover;
     background-repeat: no-repeat;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
 }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    
+    .flex-card{flex-direction: row;
+    }
+    .bg{
+      background-image: url("img1.jpg");
+     background-size: cover;
+      
+      width:100rem;
+      background-size: 100% 100%;
+  
+      background-repeat: no-repeat;
+      
+      
+  
+  }
+    .bg2{
+      background-image: linear-gradient(to  right,#ff68c2, #ffdc5b);
+      height: 100%;
+      width: 100%;
+      background: cover;
+      background-repeat: no-repeat;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+
+
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
