@@ -26,12 +26,13 @@
     -webkit-backdrop-filter: blur(0px) saturate(200%);
     background-color: rgba(205, 116, 100, 0.64);
 width: 550px;
-height: 200px;
+height: 220px;
 margin-top: 180px;
 margin-left: 100px;
 padding: 40px;
 color: white;
 font-size: x-large;
+margin-bottom: 5px;
 
 
 }
