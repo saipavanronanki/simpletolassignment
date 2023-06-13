@@ -96,8 +96,10 @@ font-size: x-large;
     text-align: center;
   }
   .icon{
-   justify-content: right;
-   margin-left: 250px;
+   justify-content: end;
+   margin-left: 200px;
+   margin-top: 10px;
+   justify-content: space-evenly;
   }
 
 
