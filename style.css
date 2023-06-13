@@ -13,8 +13,9 @@
     background-image: url("img1.jpg");
     background-size: cover;
     height: 50rem;
-    width:100vw;
-
+ 
+   
+   
     background-repeat: no-repeat;
     
     
@@ -46,7 +47,7 @@ font-size: x-large;
 .ordernow{
     color: white;
     text-align: center;
-    margin-top: 20px;
+    
     font-size: x-large;
 
 }
@@ -118,17 +119,22 @@ font-size: x-large;
    .flex-card{flex-direction: row;
   }
   .bg{
-    height: 700px;
-    width: 1600px;
+    background-image: url("img1.jpg");
+   background-size: cover;
+    
+    width:100rem;
+   
     background-repeat: no-repeat;
-    background: cover;
-  }
+    
+    
+
+}
   .bg2{
     background-image: linear-gradient(to  right,#ff68c2, #ffdc5b);
     height: 100%;
     width: 100%;
     background: cover;
-    background-repeat: no-repea;
+    background-repeat: no-repeat;
 }
 }
   
